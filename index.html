@@ -1,82 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Smart JSON Data Viewer</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 40px;
-      background: #f0f4f8;
-    }
-
-    select, input {
-      padding: 10px;
-      font-size: 16px;
-      margin: 10px 5px;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-    }
-
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-      background-color: #007bff;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-
-    .card {
-      margin-top: 30px;
-      padding: 20px;
-      max-width: 500px;
-      margin: auto;
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-      text-align: left;
-    }
-
-    .avatar {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      object-fit: cover;
-      display: block;
-      margin: 0 auto 20px;
-    }
-
-    .card h2 {
-      margin-bottom: 10px;
-      text-align: center;
-    }
-
-    .card p {
-      font-size: 14px;
-      margin: 5px 0;
-    }
-
-    #result {
-      margin-top: 20px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Data Viewer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <h1>🔍 Smart Data Viewer</h1>
-
-  <select id="mode">
-    <option value="url">Paste Full API URL</option>
-    <option value="github">GitHub Username</option>
-    <option value="jsonplaceholder">User ID </option>
-  </select>
-
-  <input type="text" id="inputValue" placeholder="Enter URL / Username / ID" />
-  <button onclick="fetchData()">Fetch Data</button>
-
-  <div id="result"></div>
+  <div class="container">
+    <h1>🔍 Smart Data Viewer</h1>
+    <input type="text" id="inputValue" placeholder="Enter GitHub Username, ID or API URL" />
+    <button onclick="fetchData()">Fetch</button>
+    <div id="output" class="result"></div>
+  </div>
 
   <script src="script.js"></script>
 </body>
