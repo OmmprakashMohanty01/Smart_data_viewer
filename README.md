@@ -40,13 +40,14 @@ A simple and elegant frontend app to fetch and display GitHub user data using th
 ---
 
 ## 📁 Folder Structure
-
+``` bash
 Smart_data_viewer/
 ├── index.html # Main UI
 ├── style.css # Stylish layout and effects
 ├── script.js # GitHub API fetch logic
 └── README.md # Project info and structure
 
+```
 ---
 
 ## 🙌 Author
