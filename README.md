@@ -1,6 +1,7 @@
 # 🔍 Smart Data Viewer
 
-This project is a **beautiful, beginner-friendly web app** that allows users to **fetch and display live JSON data** from public APIs like the [GitHub Users API](https://api.github.com/users/octocat) or [JSONPlaceholder](https://jsonplaceholder.typicode.com/users/1).
+A simple and elegant frontend app to fetch and display GitHub user data using the GitHub API.
+
 
 ## 🌐 Live Demo
 
@@ -10,13 +11,12 @@ This project is a **beautiful, beginner-friendly web app** that allows users to 
 
 ---
 
-## ⚙️ Features
+## 🚀 Features
 
-- ✅ Enter a GitHub username and fetch their public profile data
-- ✅ Paste a public API URL and get data instantly
-- ✅ Display data beautifully in a styled card with photo, name, bio, location, etc.
-- ✅ Works with any JSON-based API URL
-- 🔁 Responsive design for mobile and desktop
+- Enter a GitHub username and fetch real-time user data
+- Displays avatar, name, location, bio, and more
+- Beautiful, responsive UI with animations
+- Works on mobile and desktop
 
 ---
 
@@ -31,22 +31,21 @@ This project is a **beautiful, beginner-friendly web app** that allows users to 
 
 ## 🛠 Technologies Used
 
-- HTML
-- CSS
-- JavaScript (Vanilla)
-- Fetch API
-- GitHub API, JSONPlaceholder API
+- HTML5, CSS3
+- JavaScript (ES6)
+- GitHub REST API
+- GitHub Pages for deployment
+
 
 ---
 
 ## 📁 Folder Structure
 
 Smart_data_viewer/
-├── index.html
-├── script.js
-├── style.css
-└── README.md
-
+├── index.html # Main UI
+├── style.css # Stylish layout and effects
+├── script.js # GitHub API fetch logic
+└── README.md # Project info and structure
 
 ---
 
